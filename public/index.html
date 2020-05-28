@@ -19,7 +19,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Bisection-App</title>
   </head>
   <body>
     <noscript>
@@ -37,4 +37,18 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDAhdEuXH-AhAZuSLzF1cT8Gj6quq_YyXw",
+    authDomain: "bisection-method.firebaseapp.com",
+    databaseURL: "https://bisection-method.firebaseio.com",
+    projectId: "bisection-method",
+    storageBucket: "",
+    messagingSenderId: "982835639739"
+  };
+  firebase.initializeApp(config);
+</script>
 </html>

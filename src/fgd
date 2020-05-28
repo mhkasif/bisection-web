@@ -1,0 +1,64 @@
+import React from 'react'
+// import {BootstrapTable,   TableHeaderColumn} from 'react-bootstrap-table';
+// import '../css/Table.css'; import
+// '../../node_modules/react-bootstrap-table/css/react-bootstrap-table.css'
+import Table from 'react-bootstrap/lib/Table'
+import './Table.css'
+const Tabl = ({
+  a,
+  b,
+  c,
+  foa,
+  fob,
+  foc,
+  diff
+}) => {
+
+  return (<div className="div1">
+    <div className="div2">
+   {a[0]&& <Table striped bordered condensed hover>
+
+   <thead>
+      <tr>
+        <th>a</th>
+        <th>b</th>
+        <th>f(a)</th>
+        <th>f(b)</th>
+        <th>c</th>
+        <th>f(c)</th>
+        <th>b-a</th>
+
+      </tr>
+    </thead>
+
+      <td>{
+        a.map(a=><tr>{a.toFixed(4)}</tr>)
+      }
+      </td>
+      <td>
+      {b.map(a=><tr>{a.toFixed(4)}</tr>)}
+      </td>
+      <td>
+      {foa.map(a=><tr>{a.toFixed(4)}</tr>)}
+      </td>
+      <td>
+      {fob.map(a=><tr>{a.toFixed(4)}</tr>)}
+      </td>
+      <td>
+      {c.map(a=><tr>{a.toFixed(4)}</tr>)}
+      </td>
+      <td>
+      {foc.map(a=><tr>{a.toFixed(4)}</tr>)}
+      </td>
+      <td>
+      {diff.map(a=><tr>{a.toFixed(4)}</tr>)}
+      </td>
+
+  </Table>
+    }
+    </div>
+    </div>
+  )
+}
+
+export default Tabl

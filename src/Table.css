@@ -1,0 +1,33 @@
+.head {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid black
+}
+
+.td {
+    display: flex;
+    flex-direction: column;
+    /* background: lightpink; */
+    justify-content: space-around;
+
+}
+
+.baap {
+ display: flex;
+    justify-content: space-around;
+    border-right: 2px
+}
+
+.element {
+    border: 2px solid black;
+}
+
+.body {
+    border: 2px solid black;
+    margin: 5px;
+    margin-bottom: 20px
+}
+
+* {
+    font-weight: bold;
+}

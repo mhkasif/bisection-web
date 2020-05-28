@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +29,88 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.nav{
+  width: 100%;
+  height:50px;
+  background: maroon;
+  text-align: center;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 100px;
+
+}
+
+.initialInputs{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+
+}
+.input{
+  margin:10px;
+  border-radius: 3px;
+  height: 40px;
+  width: 300px;
+}
+.but{
+margin:10px;
+}
+.buttonsDiv{
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+/*
+.footer{
+  position:absolute;
+  bottom:0;
+  height:20%;
+  background :black;
+  width:100%;
+  color:white;
+display: flex;
+
+
+
+}
+.logo{
+  background:url('uok.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  height:80%;
+  margin-top: 5px;
+  width:40%;
+
+
+}
+.names{
+
+  display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin:10px
+
+
+}
+.db{
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 5px
+}
+.tname{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right:15px
+} */
+.load{
+  height: 100%
 }
